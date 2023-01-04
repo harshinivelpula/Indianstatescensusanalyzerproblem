@@ -55,7 +55,10 @@ namespace Indianstatescensusanalyzerproblem
             if (!File.Exists(filePath))
             {
                 throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.FILE_INCORRECT, "Incorrect FilePath");
-
+            }
+            if (!filePath.EndsWith(".csv"))
+            {
+                throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.TYPE_INCORRECT, "Incorrect FileType");
             }
             using (var reader = new StreamReader(filePath))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
