@@ -49,5 +49,25 @@ namespace Indianstatescensusanalyzerproblem
                 throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.HEADER_INCORRECT, "Header is Incorrect");
 
         }
+        // for indianstatecodetestprojct
+        public int ReadStateCodeData(string filePath)
+        {
+            if (!File.Exists(filePath))
+            {
+                throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.FILE_INCORRECT, "Incorrect FilePath");
+
+            }
+            using (var reader = new StreamReader(filePath))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            {
+                var records = csv.GetRecords<StateCodeData>().ToList();
+                foreach (var data in records)
+                {
+                    // Console.WriteLine(data.SrNo+" " +data.StateName+" "+data.TIN+" "+data.StateCode+" ");
+                    Console.WriteLine(data);
+                }
+                return records.Count - 1;
+            }
+        }
     }
 }

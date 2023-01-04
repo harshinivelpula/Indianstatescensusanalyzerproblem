@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indianstatescensusanalyzerp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndianStateCensusTestProject", "IndianStateCensusTestProject\IndianStateCensusTestProject.csproj", "{FC1A99D3-553E-4B00-BEAA-3334DAF9C6EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndianStateCodeTestProject", "IndianStateCodeTestProject\IndianStateCodeTestProject.csproj", "{81AC3A2E-FB2E-4E2E-A807-18D95F7BC796}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC1A99D3-553E-4B00-BEAA-3334DAF9C6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC1A99D3-553E-4B00-BEAA-3334DAF9C6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC1A99D3-553E-4B00-BEAA-3334DAF9C6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AC3A2E-FB2E-4E2E-A807-18D95F7BC796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AC3A2E-FB2E-4E2E-A807-18D95F7BC796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AC3A2E-FB2E-4E2E-A807-18D95F7BC796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AC3A2E-FB2E-4E2E-A807-18D95F7BC796}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
