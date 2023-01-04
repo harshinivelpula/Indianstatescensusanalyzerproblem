@@ -11,7 +11,8 @@ namespace Indianstatescensusanalyzerproblem
         public enum ExceptionType
         {
             FILE_INCORRECT,
-            TYPE_INCORRECT
+            TYPE_INCORRECT,
+            DELIMITER_INCORRECT
         }
         public ExceptionType Type;
         public StateCensusAndCodeException(ExceptionType exceptionType, string message) : base(message)

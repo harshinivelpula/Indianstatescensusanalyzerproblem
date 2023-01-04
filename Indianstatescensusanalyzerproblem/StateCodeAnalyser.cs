@@ -21,15 +21,23 @@ namespace Indianstatescensusanalyzerproblem
             {
                 throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.TYPE_INCORRECT, "Incorrect FileType");
             }
-            using var reader = new StreamReader(filepath);
-            using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-            var records = csv.GetRecords<StateCensusData>().ToList();
-            foreach (var data in records)
+            var read = File.ReadAllLines(filepath);
+            string header = read[0];
+            if (header.Contains("-"))
             {
-                // Console.WriteLine(data.State + " " + data.Population + " " + data.AreaInSqKm + " " + data.DensityPerSqKm + " ");
-                Console.WriteLine(data);
+                throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.DELIMITER_INCORRECT, "Delimiter Incorrect");
             }
-            return records.Count - 1;
+            using (var reader = new StreamReader(filepath))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            {
+                var records = csv.GetRecords<StateCensusData>().ToList();
+                foreach (var data in records)
+                {
+                    // Console.WriteLine(data.State + " " + data.Population + " " + data.DensityPerSqKm + " " + data.AreaInSqKm);
+                    Console.WriteLine(data);
+                }
+                return records.Count - 1;
+            }
         }
     }
 }
