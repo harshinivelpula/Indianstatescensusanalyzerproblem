@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indianstatescensusanalyzerproblem", "Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem.csproj", "{70907560-BF9E-4465-B0E3-D4B0D1FC3E97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70907560-BF9E-4465-B0E3-D4B0D1FC3E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70907560-BF9E-4465-B0E3-D4B0D1FC3E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70907560-BF9E-4465-B0E3-D4B0D1FC3E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70907560-BF9E-4465-B0E3-D4B0D1FC3E97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E22B2F65-C386-4162-A359-4DBDE9406B66}
+	EndGlobalSection
+EndGlobal

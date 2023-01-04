@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\bin\Debug\net6.0\Indianstatescensusanalyzerproblem.exe
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\bin\Debug\net6.0\Indianstatescensusanalyzerproblem.deps.json
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\bin\Debug\net6.0\Indianstatescensusanalyzerproblem.runtimeconfig.json
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\bin\Debug\net6.0\Indianstatescensusanalyzerproblem.dll
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\bin\Debug\net6.0\Indianstatescensusanalyzerproblem.pdb
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.dll
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\refint\Indianstatescensusanalyzerproblem.dll
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.pdb
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.genruntimeconfig.cache
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\ref\Indianstatescensusanalyzerproblem.dll
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\obj\Debug\net6.0\Indianstatescensusanalyzerproblem.csproj.CopyComplete
