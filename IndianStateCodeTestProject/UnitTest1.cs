@@ -55,5 +55,19 @@ namespace IndianStateCodeTestProject
                 Assert.AreEqual(ex.Message, "Delimiter Incorrect");
             }
         }
+        [Test]
+        public void GivenStateCodeDataFileIncorrectHeader_WhenAnalyzed_ShouldReturnException()
+        {
+            StateCodeAnalyser analyzer = new StateCodeAnalyser();
+            try
+            {
+                bool records = analyzer.ReadStateCensusData(stateCodeCSVFilePath, "State,Population,AreaInSqKm,DensityPerSqKm");
+                Assert.IsTrue(records);
+            }
+            catch (StateCensusAndCodeException ex)
+            {
+                Assert.AreEqual(ex.Message, "Header is Incorrect");
+            }
+        }
     }
 }
