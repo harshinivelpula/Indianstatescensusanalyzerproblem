@@ -39,5 +39,15 @@ namespace Indianstatescensusanalyzerproblem
                 return records.Count - 1;
             }
         }
+        public bool ReadStateCensusData(string filepath, string header)
+        {
+            var read = File.ReadAllLines(filepath);
+            string headers = read[0];
+            if (headers.Equals(header))
+                return true;
+            else
+                throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.HEADER_INCORRECT, "Header is Incorrect");
+
+        }
     }
 }
