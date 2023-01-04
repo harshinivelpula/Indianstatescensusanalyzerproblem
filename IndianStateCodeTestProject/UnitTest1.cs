@@ -6,9 +6,10 @@ namespace IndianStateCodeTestProject
     {
         public static string stateCodeCSVFilePath = @"C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\files\StateCode.csv";
         public static string stateCodeIncorrectCSVFilePath = @"C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\files\StateCodedata.csv";
-        public static string stateCodeIncorrectCSVFileType = @"C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\files\StateCodedata.txt";
+        public static string stateCodeIncorrectCSVFileType = @"C:\Users\DELL\source\repos\Indianstatescensusanalyzerproblem\Indianstatescensusanalyzerproblem\files\StateCodeType.txt";
 
 
+        [Test]
         public void GivenStateCodeData_WhenAnalyse_ShoulReturnNumberOfRecordMatches()
         {
             StateCodeAnalyser stateCodeAnalyser = new StateCodeAnalyser();

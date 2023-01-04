@@ -60,13 +60,19 @@ namespace Indianstatescensusanalyzerproblem
             {
                 throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.TYPE_INCORRECT, "Incorrect FileType");
             }
+            var read = File.ReadAllLines(filePath);
+            string header = read[0];
+            if (header.Contains("-"))
+            {
+                throw new StateCensusAndCodeException(StateCensusAndCodeException.ExceptionType.DELIMITER_INCORRECT, "Delimiter Incorect");
+            }
             using (var reader = new StreamReader(filePath))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 var records = csv.GetRecords<StateCodeData>().ToList();
                 foreach (var data in records)
                 {
-                    // Console.WriteLine(data.SrNo+" " +data.StateName+" "+data.TIN+" "+data.StateCode+" ");
+                   //Console.WriteLine(data.SrNo+" " +data.StateName+" "+data.TIN+" "+data.StateCode+" ");
                     Console.WriteLine(data);
                 }
                 return records.Count - 1;
